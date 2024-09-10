@@ -31,6 +31,20 @@
 				<extensions>true</extensions>
 			</plugin>
 		</plugins>
+		<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<username>ParijathaCICD</username>
+						<password>Sudheer.194</password>
+						<environment>Sandbox</environment>
+						<muleVersion>4.6.0</muleVersion>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>cicddemo</applicationName>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
+</configuration>
+
 	</build>
 
 	<dependencies>
